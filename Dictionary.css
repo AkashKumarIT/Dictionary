@@ -1,0 +1,71 @@
+:root{
+    --primary_color:#997950;
+    --padding:20px;
+    --font_size: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:var(--primary_color) ;
+    font-size: 50px;
+    font-weight: 500;
+    padding: var(--padding);
+    color: #fff;
+    font-family: Fantasy;
+}
+main{
+    min-height: 80vh;
+    padding: var(--padding);
+    max-width: 800px;
+    margin: 0 auto;
+}
+main form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form input ,button,a{
+    border: none;
+    font-size: var(--font_size);
+    border-radius: 5px;
+    font-weight: 500;
+    padding: calc(var(--padding)/4);
+}
+form input[type="text"]{
+    flex-grow: 1;
+    border: 2px solid black;
+}
+form button{
+    background-color: var(--primary_color);
+    color: #fff;
+    margin-left: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.result p{
+    margin: 10px;
+
+}
+.result{
+    margin-top: 20px;
+    background-color:#997950;
+    width: 50%;
+    border-radius: 5px;
+    padding: var(--padding);
+    font-weight: 500;
+    font-size: 20px;
+}
+.head{
+    font-size: 45px;
+}
+a{
+    text-decoration: none;
+    background-color: #fff;
+    color: #9b651e;
+    margin-top: 50px;
+}
